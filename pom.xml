@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>xyz.deebugger</groupId>
+  <groupId>io.github.deebugger</groupId>
   <artifactId>hello-maven-plugin</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
@@ -20,16 +20,13 @@
   <developers>
     <developer>
       <name>Dror Ben-Gai</name>
-      <email>deebugger@gmail.com</email>
-      <organization>MyOwn</organization>
+      <email>dbengai@gmail.com</email>
     </developer>
   </developers>
 
   <scm>
-    <connection>scm:git:git://github.com/simpligility/ossrh-demo.git</connection>
-    <developerConnection>scm:git:ssh://github.com:simpligility/ossrh-demo.git</developerConnection>
-    <url>http://github.com/simpligility/ossrh-demo/tree/master</url>
-   </scm>
+    <url>https://github.com/deebugger/hello-maven-plugin</url>
+  </scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
